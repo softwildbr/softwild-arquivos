@@ -1,0 +1,30 @@
+name: Propor melhoria
+description: Avaliar uma nova função com critérios de aceite verificáveis
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema do usuário ou oportunidade
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta de solução
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite e teste
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Riscos de privacidade, direitos, permissões, custo e dependências
+  - type: textarea
+    id: decision
+    attributes:
+      label: Evidência de aprovação e relação com o projeto
+      description: Não iniciar implementação apenas por abrir uma Issue

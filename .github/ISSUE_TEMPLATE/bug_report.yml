@@ -1,0 +1,34 @@
+name: Relatar problema
+description: Registrar um defeito com evidências e passos de reprodução
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Comportamento observado
+      description: Não inclua dados pessoais, tokens ou arquivos privados
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Como reproduzir
+      description: Passos numerados e condição inicial
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versão, branch ou commit
+  - type: input
+    id: android
+    attributes:
+      label: Aparelho e versão Android
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado e impacto
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências e verificações já realizadas
+      description: Links para logs não sensíveis, vídeo, imagem ou PR

@@ -1,5 +1,9 @@
 # Cliquim Arquivos
 
+**Identidade corporativa vigente (17/11/2026): Soft Wild.** Nome escolhido pelo fundador para a empresa maker; não equivale à liberação no INPI, de domínios ou de perfis. Marcas, nomes técnicos e histórico do produto continuam intactos até migração aprovada.
+
+> Conciliação de 24/11/2026: registro técnico histórico da candidata 0.4, não nova homologação. A descrição da base 0.1.0 foi preservada no [snapshot anterior da main](https://github.com/softwildbr/softwild-arquivos/blob/e7a843a72dddbb7079f4b1994ae2aed58184452d/README.md). Conferir commit, versão e evidências antes de entregar.
+
 Gerenciador local para Android inspirado em interfaces de desktop dos anos 1990, com ativos vetoriais próprios. Protótipo funcional 0.4.0 para avaliação, não publicado na Play Store.
 
 ## Implementado
@@ -38,3 +42,7 @@ Imagem Explorer 98 SE inspecionada visualmente; imagens históricas não incorpo
 
 ## Interface 0.4 (aguardando testes centralizados)
 As 14 pranchas orientam a composição e os estados. Foram implementadas páginas próprias para busca, propriedades, favoritos, preferências, ajuda, armazenamento, destino e transferências, preservando operações reais e desabilitando substituição/retomada não implementadas. A equivalência visual, acessibilidade e desempenho ainda dependem do Work único de testes. [Entrega e limitações da 0.4](docs/ENTREGA_04.md). [Histórico 0.3](docs/ENTREGA_03.md).
+
+## Endereço canônico — 17/11/2026
+
+Migração técnica autorizada: [`softwildbr/softwild-arquivos`](https://github.com/softwildbr/softwild-arquivos), antes `cliquim-arquivos`. O endereço anterior redireciona para este. A mudança do slug não renomeia packages Android, dados, assinaturas, artefatos, versões ou marcas próprias dos produtos. Branches e PRs de desenvolvimento foram preservados; não foi escolhida uma candidata nova nem realizado build/instalação. Atualize o remote de novos trabalhos para o endereço canônico, mantendo o nome da pasta local quando houver consumidores.
